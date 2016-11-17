@@ -12,3 +12,7 @@ function openWebpage(webpage){
 function noForum(){
   alert("No forum thread at the moment, stay posted.");
 }
+
+function contact(){
+  alert("Email: BillyGDesigns@hotmail.com");
+}
