@@ -1,77 +1,100 @@
 <html>
 
 <header>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <script src="js/semantic.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="css/icon.css">
   <link rel="stylesheet" type="text/css" href="css/core.css">
-  <script src="css/semantic.min.js"></script>
 </header>
 
 <body>
-<div style="width: 100%; overflow: hidden; margin-top: 30px;">
+  <div class="ui visible left demo vertical inverted sidebar labeled icon menu">
+    <a class="item">
+      <i class="home icon"></i>
+      Home
+    </a>
+    <a class="item">
+      <i class="block layout icon"></i>
+      Topics
+    </a>
+    <a class="item">
+      <i class="smile icon"></i>
+      Friends
+    </a>
+  </div>
 
-  <div class="ui inverted segment" style="max-width: 600px; margin-left: 40px; margin-right: 40px;">
-    <div class="ui inverted relaxed divided list">
-      <h3 style="color: #d69a9a">Champions</h3>
+  <div class="pusher">
 
-      <div class="item">
-        <div class="content" style="color: #7f7f7f">
-          <div class="header">
-            PlayAIO
-            <button class="ui inverted violet button" style="float: right;">GitHub</button>
-            <button class="ui inverted teal button" style="float: right;">Install</button>
+  <div style="width: 100%; overflow: hidden; margin-top: 30px;">
+
+    <div class="ui inverted segment" style="max-width: 600px; margin-left: 40px; margin-right: 40px;">
+      <div class="ui inverted relaxed divided list">
+        <h3 style="color: #d69a9a;">Champions</h3>
+
+        <div class="item">
+          <div class="content" style="color: #7f7f7f">
+            <div class="header">
+              PlayAIO
+              <button class="ui inverted violet button" style="float: right;" onclick="toggleMenu()">GitHub</button>
+
+              <button class="ui inverted teal button" style="float: right;">Install</button>
+            </div>
+              All In One Script: Lee Sin, Vayne, Riven and more.
           </div>
-            All In One Script: Lee Sin, Vayne, Riven and more.
         </div>
-      </div>
 
-      <div class="item">
-        <div class="content" style="color: #7f7f7f">
-          <div class="header">
-            LSharp Nunu
-            <button class="ui inverted violet button" style="float: right;">GitHub</button>
-            <button class="ui inverted teal button" style="float: right;">Install</button>
+        <div class="item">
+          <div class="content" style="color: #7f7f7f">
+            <div class="header">
+              LSharp Nunu
+              <button class="ui inverted violet button" style="float: right;">GitHub</button>
+              <button class="ui inverted teal button" style="float: right;">Install</button>
+            </div>
+              Basic Nunu script.
           </div>
-            Basic Nunu script.
         </div>
-      </div>
 
-      <div class="item">
-        <div class="content" style="color: #7f7f7f">
-          <div class="header">
-            LSharp Vayne
-            <button class="ui inverted violet button" style="float: right;">GitHub</button>
-            <button class="ui inverted teal button" style="float: right;">Install</button>
+        <div class="item">
+          <div class="content" style="color: #7f7f7f">
+            <div class="header">
+              LSharp Vayne
+              <button class="ui inverted violet button" style="float: right;">GitHub</button>
+              <button class="ui inverted teal button" style="float: right;">Install</button>
+            </div>
+              Basic Vayne script.
           </div>
-            Basic Vayne script.
         </div>
-      </div>
 
+      </div>
     </div>
   </div>
-</div>
 
 
 
-<div style="width: 100%; overflow: hidden; margin-top: 30px;">
+  <div style="width: 100%; overflow: hidden; margin-top: 30px;">
 
-  <div class="ui inverted segment" style="max-width: 600px; margin-left: 40px; margin-right: 40px;">
-    <div class="ui inverted relaxed divided list">
-      <h3 style="color: #a1d69a">Utilities</h3>
+    <div class="ui inverted segment" style="max-width: 600px; margin-left: 40px; margin-right: 40px;">
+      <div class="ui inverted relaxed divided list">
+        <h3 style="color: #a1d69a">Utilities</h3>
 
-      <div class="item">
-        <div class="content" style="color: #7f7f7f">
-          <div class="header">
-            TeamGold
-            <button class="ui inverted violet button" style="float: right;">GitHub</button>
-            <button class="ui inverted teal button" style="float: right;">Install</button>
+        <div class="item">
+          <div class="content" style="color: #7f7f7f">
+            <div class="header">
+              TeamGold (SDK)
+              <button class="ui inverted violet button" style="float: right;">GitHub</button>
+              <button class="ui inverted teal button" style="float: right;">Install</button>
+            </div>
+              Estimates how much gold each team has.
           </div>
-            Estimates how much gold each team has.
         </div>
-      </div>
 
+      </div>
     </div>
   </div>
-</div>
+    
+  </div>
 
 </body>
 
