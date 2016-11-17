@@ -4,3 +4,7 @@ function toggleMenu() {
   .sidebar('toggle')
   ;
 }
+
+function openGithub(){
+  window.open('http://github.com/billygg/lsharp');
+}
