@@ -1,108 +1,112 @@
 <html>
 
-<header>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
-    <script src="js/semantic.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/semantic.min.css">
-    <link rel="stylesheet" type="text/css" href="css/icon.css">
-    <link rel="stylesheet" type="text/css" href="css/core.css">
-</header>
+    <header>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <script src="js/semantic.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/semantic.min.css">
+        <link rel="stylesheet" type="text/css" href="css/icon.css">
+        <link rel="stylesheet" type="text/css" href="css/core.css">
+    </header>
 
-<body>
-
-    <div class="ui left thin demo vertical inverted sidebar labeled icon menu">
-        <a class="item" href="../index.html">
-            <i class="home icon"></i> Home
-        </a>
-        <a class="item" style="color: #0090C5" onclick="openWebpage('https://www.joduska.me/forum/user/65730-alqohol')">
-            <img id="leaguesharp-img" src="images/leaguesharp.png" />
-            <br /> LeagueSharp
-        </a>
-        <a class="item" style="color: #6435C9" onclick="openWebpage('http://github.com/BillyGG/LSharp')">
-            <i class="violet github icon"></i> GitHub
-        </a>
-    </div>
-
-    <div class="pusher">
-        <div class="ui inverted segment" style="width: 40px; height: 120%; position: absolute; top: -10%; left: -5px;">
-            <h1 id="center-vert" class="sidebar-hover" onclick="toggleMenu()">
-        >
-      </h1>
+    <body>
+        <div class="ui left thin demo vertical inverted sidebar labeled icon menu">
+            <a class="item" href="../index.html">
+                <i class="home icon"></i>
+                Home
+            </a>
+            <a class="item" style="color: #0090C5" onclick="openWebpage('https://www.joduska.me/forum/user/65730-alqohol')">
+                <img id="leaguesharp-img" src="images/leaguesharp.png"/>
+                <br/>
+                LeagueSharp
+            </a>
+            <a class="item" style="color: #6435C9" onclick="openWebpage('http://github.com/BillyGG/LSharp')">
+                <i class="violet github icon"></i>
+                GitHub
+            </a>
         </div>
 
-        <div style="width: 100%; overflow: hidden; margin-top: 15px;">
-
-            <div class="ui inverted segment" style="max-width: 600px; margin-left: 55px; margin-right: 55px;">
-                <div class="ui inverted relaxed divided list">
-                    <h3 style="color: #d69a9a;">Champions</h3>
-
-                    <div class="item">
-                        <div class="content" style="color: #7f7f7f">
-                            <div class="header">
-                                PlayAIO
-                                <button class="ui inverted blue button" style="float: right;" onclick="noForum()">Forum</button>
-                                <button class="ui inverted violet button" style="float: right;" onclick="openWebpage('http://github.com/BillyGG/LSharp/tree/master/PlayAIO/PlayAIO')">GitHub</button>
-                                <button class="ui inverted teal button" style="float: right;">Install</button>
-                            </div>
-                            All In One Script: Lee Sin, Vayne, Riven and more.
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="content" style="color: #7f7f7f">
-                            <div class="header">
-                                LSharp Nunu
-                                <button class="ui inverted blue button" style="float: right;" onclick="openWebpage('https://www.joduska.me/forum/topic/80478-510-lsharp-nunu-billygg/')">Forum</button>
-                                <button class="ui inverted violet button" style="float: right;" onclick="openWebpage('http://github.com/BillyGG/LSharp/tree/master/LSharpNunu/LSharpNunu')">GitHub</button>
-                                <button class="ui inverted teal button" style="float: right;" onclick="openWebpage('ls://project/BillyGG/LSharp/LSharpNunu/')">Install</button>
-                            </div>
-                            Basic Nunu script.
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="content" style="color: #7f7f7f">
-                            <div class="header">
-                                LSharp Vayne
-                                <button class="ui inverted blue button" style="float: right;" onclick="noForum()">Forum</button>
-                                <button class="ui inverted violet button" style="float: right;" onclick="openWebpage('https://github.com/BillyGG/LSharp/tree/master/LSharpVayne/LSharpVayne')">GitHub</button>
-                                <button class="ui inverted teal button" style="float: right;">Install</button>
-                            </div>
-                            Basic Vayne script.
-                        </div>
-                    </div>
-
-                </div>
+        <div class="pusher">
+            <div class="ui inverted segment" style="width: 40px; height: 120%; position: fixed; top: -10%; left: -5px;">
+                <h1 id="center-vert" class="sidebar-hover" onclick="toggleMenu()">
+                    >
+                </h1>
             </div>
-        </div>
 
+            <div class="background-image-blur"></div>
+            <div class="grid-overlay"></div>
+            <div class="content">
 
+                <div style="width: 100%; overflow: hidden; margin-top: 15px;">
 
-        <div style="width: 100%; overflow: hidden; margin-top: 15px;">
+                    <div class="ui inverted segment" style="max-width: 600px; margin-left: 55px; margin-right: 55px;">
+                        <div class="ui inverted relaxed divided list">
+                            <h3 style="color: #d69a9a;">Champions</h3>
 
-            <div class="ui inverted segment" style="max-width: 600px; margin-left: 55px; margin-right: 55px;">
-                <div class="ui inverted relaxed divided list">
-                    <h3 style="color: #a1d69a">Utilities</h3>
-
-                    <div class="item">
-                        <div class="content" style="color: #7f7f7f">
-                            <div class="header">
-                                TeamGold (SDK)
-                                <button class="ui inverted blue button" style="float: right;" onclick="noForum()">Forum</button>
-                                <button class="ui inverted violet button" style="float: right;" onclick="openWebpage('https://github.com/BillyGG/LSharp/tree/master/ExecuteSharp/ExecuteSharp')">GitHub</button>
-                                <button class="ui inverted teal button" style="float: right;">Install</button>
+                            <div class="item">
+                                <div class="content" style="color: #7f7f7f">
+                                    <div class="header">
+                                        PlayAIO
+                                        <button class="ui inverted blue button" style="float: right;" onclick="noForum()">Forum</button>
+                                        <button class="ui inverted violet button" style="float: right;" onclick="openWebpage('http://github.com/BillyGG/LSharp/tree/master/PlayAIO/PlayAIO')">GitHub</button>
+                                        <button class="ui inverted teal button" style="float: right;">Install</button>
+                                    </div>
+                                    All In One Script: Lee Sin, Vayne, Riven and more.
+                                </div>
                             </div>
-                            Estimates how much gold each team has.
+
+                            <div class="item">
+                                <div class="content" style="color: #7f7f7f">
+                                    <div class="header">
+                                        LSharp Nunu
+                                        <button class="ui inverted blue button" style="float: right;" onclick="openWebpage('https://www.joduska.me/forum/topic/80478-510-lsharp-nunu-billygg/')">Forum</button>
+                                        <button class="ui inverted violet button" style="float: right;" onclick="openWebpage('http://github.com/BillyGG/LSharp/tree/master/LSharpNunu/LSharpNunu')">GitHub</button>
+                                        <button class="ui inverted teal button" style="float: right;" onclick="openWebpage('ls://project/BillyGG/LSharp/LSharpNunu/')">Install</button>
+                                    </div>
+                                    Basic Nunu script.
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="content" style="color: #7f7f7f">
+                                    <div class="header">
+                                        LSharp Vayne
+                                        <button class="ui inverted blue button" style="float: right;" onclick="noForum()">Forum</button>
+                                        <button class="ui inverted violet button" style="float: right;" onclick="openWebpage('https://github.com/BillyGG/LSharp/tree/master/LSharpVayne/LSharpVayne')">GitHub</button>
+                                        <button class="ui inverted teal button" style="float: right;">Install</button>
+                                    </div>
+                                    Basic Vayne script.
+                                </div>
+                            </div>
+
                         </div>
                     </div>
-
                 </div>
+
+                <div style="width: 100%; overflow: hidden; margin-top: 15px;">
+
+                    <div class="ui inverted segment" style="max-width: 600px; margin-left: 55px; margin-right: 55px;">
+                        <div class="ui inverted relaxed divided list">
+                            <h3 style="color: #a1d69a">Utilities</h3>
+
+                            <div class="item">
+                                <div class="content" style="color: #7f7f7f">
+                                    <div class="header">
+                                        TeamGold (SDK)
+                                        <button class="ui inverted blue button" style="float: right;" onclick="noForum()">Forum</button>
+                                        <button class="ui inverted violet button" style="float: right;" onclick="openWebpage('https://github.com/BillyGG/LSharp/tree/master/ExecuteSharp/ExecuteSharp')">GitHub</button>
+                                        <button class="ui inverted teal button" style="float: right;">Install</button>
+                                    </div>
+                                    Estimates how much gold each team has.
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
             </div>
-        </div>
 
-    </div>
+        </body>
 
-</body>
-
-</html>
+    </html>
