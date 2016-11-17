@@ -8,3 +8,7 @@ function toggleMenu() {
 function openWebpage(webpage){
   window.open(webpage);
 }
+
+function noForum(){
+  alert("No forum thread at the moment, stay posted.");
+}

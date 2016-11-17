@@ -1,13 +1,9 @@
-body{
-  background: url(../images/bg.jpg);
-  background-size: cover;
-  overflow: hidden;
+body {
+    background: url(../images/bg.jpg);
+    background-size: cover;
+    overflow: hidden;
 }
 
-h1{
+h1 {}
 
-}
-
-ul{
-
-}
+ul {}
