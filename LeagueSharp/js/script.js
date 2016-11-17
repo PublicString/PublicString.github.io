@@ -5,6 +5,6 @@ function toggleMenu() {
   ;
 }
 
-function openGithub(){
-  window.open('http://github.com/billygg/lsharp');
+function openWebpage(webpage){
+  window.open(webpage);
 }

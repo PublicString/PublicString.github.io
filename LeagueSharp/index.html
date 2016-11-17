@@ -10,26 +10,32 @@
 </header>
 
 <body>
+
   <div class="ui left thin demo vertical inverted sidebar labeled icon menu">
     <a class="item">
       <i class="home icon"></i>
       Home <br />PublicString
     </a>
-    <a class="item">
-      <i class="block layout icon"></i>
-      LeagueSharp<br />Joduska.me
+    <a class="item" style="color: #0090C5" onclick="openWebpage('https://www.joduska.me/forum/user/65730-alqohol')">
+      <img id="leaguesharp-img" src="images/leaguesharp.png"/>
+      <br />LeagueSharp
     </a>
-    <a class="item" style="color: #6435C9" onclick="openGithub()">
+    <a class="item" style="color: #6435C9" onclick="openWebpage('http://github.com/BillyGG/LSharp')">
       <i class="violet github icon"></i>
       GitHub
     </a>
   </div>
 
   <div class="pusher">
+    <div class="ui inverted segment" style="width: 50px; height: 120%; position: absolute; top: -10%; left: -5px;">
+      <h1 id="center-vert" class="sidebar-hover" onclick="toggleMenu()">
+        >
+      </h1>
+    </div>
 
-  <div style="width: 100%; overflow: hidden; margin-top: 30px;">
+  <div style="width: 100%; overflow: hidden; margin-top: 15px;">
 
-    <div class="ui inverted segment" style="max-width: 600px; margin-left: 40px; margin-right: 40px;">
+    <div class="ui inverted segment" style="max-width: 600px; margin-left: 60px; margin-right: 60px;">
       <div class="ui inverted relaxed divided list">
         <h3 style="color: #d69a9a;">Champions</h3>
 
@@ -39,7 +45,7 @@
               PlayAIO
               <button class="ui inverted violet button" style="float: right;" onclick="toggleMenu()">GitHub</button>
 
-              <button class="ui inverted teal button" style="float: right;">Install</button>
+              <button class="ui inverted teal button" style="float: right;" onclick="openWebpage('ls://project/BillyGG/LSharp/LSharpNunu/')">Install</button>
             </div>
               All In One Script: Lee Sin, Vayne, Riven and more.
           </div>
@@ -73,9 +79,9 @@
 
 
 
-  <div style="width: 100%; overflow: hidden; margin-top: 30px;">
+  <div style="width: 100%; overflow: hidden; margin-top: 15px;">
 
-    <div class="ui inverted segment" style="max-width: 600px; margin-left: 40px; margin-right: 40px;">
+    <div class="ui inverted segment" style="max-width: 600px; margin-left: 60px; margin-right: 60px;">
       <div class="ui inverted relaxed divided list">
         <h3 style="color: #a1d69a">Utilities</h3>
 
